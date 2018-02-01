@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Redirect } from 'react-router-dom';
-
+import * as firebase from 'firebase';
 import LoginScreen from '../components/LoginScreen';
 
 export default class LoginScreenContainer extends Component {
@@ -8,8 +8,12 @@ export default class LoginScreenContainer extends Component {
     login: false,
   }
 
-  handleGoogleLogin = () => {
-    console.log('a')
+  handleGoogleLogin = async () => {
+    const provider = new firebase.auth.GoogleAuthProvider();
+    await firebase.auth().signInWithPopup(provider);
+    this.setState({
+      login: true,
+    });
   }
 
   render() {

@@ -8,12 +8,12 @@ import App from './components/App';
 
 
 const config = {
-  apiKey: 'AIzaSyCyA2eYBGHMTWxOiBIP23Izr66Szr2tCUM',
-  authDomain: 'todolist1-82ee0.firebaseapp.com',
-  databaseURL: 'https://todolist1-82ee0.firebaseio.com',
-  projectId: 'todolist1-82ee0',
-  storageBucket: 'todolist1-82ee0.appspot.com',
-  messagingSenderId: '711342994667',
+  apiKey: 'AIzaSyC3oBz1bymfOf69hbx-QKOfqCJv1kgomsQ',
+  authDomain: 'test-368e1.firebaseapp.com',
+  databaseURL: 'https://test-368e1.firebaseio.com',
+  projectId: 'test-368e1',
+  storageBucket: '',
+  messagingSenderId: '427107451605',
 };
 firebase.initializeApp(config);
 
