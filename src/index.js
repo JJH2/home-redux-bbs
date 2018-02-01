@@ -12,7 +12,7 @@ const config = {
   authDomain: 'test-368e1.firebaseapp.com',
   databaseURL: 'https://test-368e1.firebaseio.com',
   projectId: 'test-368e1',
-  storageBucket: '',
+  storageBucket: 'test-368e1.appspot.com',
   messagingSenderId: '427107451605',
 };
 firebase.initializeApp(config);
