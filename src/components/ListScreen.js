@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
+import HeaderMenuContainer from '../containers/HeaderMenuContainer';
 
+const ListScreen = () => (
+  <div>
+    <HeaderMenuContainer />
+  </div>
+);
 
-export default class ListScreen extends Component {
-  render() {
-    return (
-      <div>로그인에 성공했구나</div>
-    );
-  }
-}
+export default ListScreen;
